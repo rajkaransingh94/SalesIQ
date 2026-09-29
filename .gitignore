@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment variables
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# Build output
+dist/
+frontend/dist/
+build/
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated data artifact (regenerate with database/generate-seed.js)
+# Comment this out if you want seed.sql tracked in git.
